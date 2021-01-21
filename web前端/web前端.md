@@ -91,7 +91,7 @@ A：
 </head>
 <body>
   <form id="form" action="posts/save.php" method="post">
-    <input type="text" name="" placeholder="欢迎光临" />
+    <input type="text" name="" placeholder="欢迎光临"/>
     <textarea name="">welcome!</textarea>
     <input type="radio" name="day" value="day1" />day1
     <input type="radio" name="day" value="day2" checked />day2
@@ -111,7 +111,6 @@ A：
     </select>
     <input type="hidden" name="hiddenVal" value="1">
     <input type="file">
-
     <input type="submit" value="提交" onclick="getAll()" />
   </form>
   <button onclick="getAll()">Btn</button>
